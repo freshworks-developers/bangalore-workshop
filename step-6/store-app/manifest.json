@@ -3,13 +3,10 @@
   "product": {
     "freshdesk": {
       "location": {
-        "full_page_app": {
+        "ticket_sidebar": {
           "url": "index.html",
           "icon": "styles/images/icon.svg"
         }
-      },
-      "requests": {
-        "fakeStoreGetProducts": {}
       }
     }
   },
