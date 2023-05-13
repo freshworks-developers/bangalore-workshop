@@ -5,8 +5,7 @@ init();
 async function init() {
   client = await app.initialized();
   client.events.on('app.activated', renderText);
-  // this is an instance method
-  await client.instance.resize({height: "700px"});
+  // your code goes in here for instance methods
 }
 
 async function renderText() {
