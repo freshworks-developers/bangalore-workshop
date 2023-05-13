@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Dialer</title>
+  <link rel="stylesheet" type="text/css"
+    href="https://assets.freshservice.com/widget-sdks/crayons/1.0.0./crayons.min.css">
+  <script type="text/javascript"
+    src="https://assets.freshservice.com/widget-sdks/crayons/1.0.0./crayons.min.js"></script>
+</head>
+
+<body>
+  <div class="dialer-container">
+    <h4>Freshworks Dialler Interface</h4>
+    <div class="input-container">
+      <fw-country-phone value="+918888888888" name="country-code" clear-input select-placeholder="select country code"
+        input-placeholder="Enter phone number" required input-label="Support phone number" select-label="Country Code"
+        error-text="Error message text" warning-text="Please use numbers for user ID" state="normal"
+        class="dialer-input"></fw-country-phone>
+    </div>
+    <fw-tooltip content="Click here to call">
+      <fw-button size="icon" color="secondary" class="dial-button"><fw-icon name="phone" size="20"></fw-icon>
+      </fw-button>
+    </fw-tooltip>
+    <fw-popover same-width="false">
+      <fw-button slot="popover-trigger">Contacts</fw-button>
+      <fw-list-options variant="icon" id="predefinedOptions" slot="popover-content" option-label-path="name"
+        option-value-path="id"></fw-list-options>
+    </fw-popover>
+  </div>
+  <script>
+    document.querySelector('.dial-button').addEventListener('click', function () {
+      const phoneNumber = document.querySelector('.dialer-input').value;
+      if (phoneNumber) {
+        alert(`Dialing: ${phoneNumber}`);
+      } else {
+        alert('Please enter a phone number');
+      }
+    });
+  </script>
+  <style>
+    .dialer-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      max-width: 300px;
+      margin: 50px auto;
+      padding: 20px;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .input-container {
+      margin-bottom: 20px;
+      width: 100%;
+    }
+  </style>
+</body>
+
+</html>
+
+<script async type="module"
+  src="https://cdn.jsdelivr.net/npm/@freshworks/crayons@v4/dist/crayons/crayons.esm.js"></script>
+<script async nomodule src="https://cdn.jsdelivr.net/npm/@freshworks/crayons@v4/dist/crayons/crayons.js"></script>
