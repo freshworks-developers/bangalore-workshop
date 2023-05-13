@@ -1,0 +1,8 @@
+{
+    "hostName": {
+      "display_name": "Host Name",
+      "description": "Enter the API host name",
+      "type": "text",
+      "required": true
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "fakeStoreGetProducts": {
+      "schema": {
+        "method": "GET",
+        "host": "<%= iparam.hostName %>",
+        "path": "/products",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      },
+      "options": {
+        "maxAttempts": 3,
+        "retryDelay": 1000
+      }
+    }
+  }
