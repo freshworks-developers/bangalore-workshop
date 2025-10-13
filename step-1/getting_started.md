@@ -32,10 +32,10 @@ Kindly ensure you have gone through the [Introductory guide to freshworks app d
    1. For Mac Users use one of these steps
       1. [Follow these steps for CLI based installation](https://github.com/nvm-sh/nvm#installation-and-update)
       2. Install via brew
-      dev       1. [Install brew](https://brew.sh/) if haven't done already
-         2. Verify brew working  or notversion
+         1. [Install brew](https://brew.sh/) if haven't done already
+         2. Run `brew -v` to verify the installation
    2. For Windows Users use one of the below option
-      1. [Install via installers](https://github.com/coreybutler/nvm-windows/releases)
+      1. [Install via executables](https://github.com/coreybutler/nvm-windows/releases)
       2. Install via chocolatey
          1. [Install Chocolatey Package manager](https://chocolatey.org/install)
          2. Install NVM via chocolatey
@@ -82,11 +82,11 @@ Towards end of the it your output shouldbe same or higher than the listed ones
 
 ```sh
 #for nvm -v
-0.39.3
+0.40.3
 # for node -v
-v18.15.0
+v18.20.8
 # for npm -v
-9.6.3
+10.8.2
 # for fdk -v
-9.6.3
+9.7.0
 ```

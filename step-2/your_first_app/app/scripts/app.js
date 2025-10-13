@@ -1,4 +1,4 @@
-var client;
+let client;
 
 init();
 
@@ -14,5 +14,5 @@ async function renderText() {
     contact: { name }
   } = contactData;
 
-  textElement.innerHTML = `Ticket is created by ${name}`;
+  textElement.innerHTML = `Ticket is created by ${name} and viewed by Pavan`;
 }
