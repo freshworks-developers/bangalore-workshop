@@ -9,3 +9,4 @@ We will be using [Products](https://fakestoreapi.com/products) endpoint for our 
 3. Run command `fdk run` to run the app
 4. Navigate to your product page - https://[subdomain].[product].com/a/apps/indev-storeapp?dev=true Eg: https://paidappdemo.freshdesk.com/a/apps/indev-storeapp?dev=true
 5. Verify your app changes
+

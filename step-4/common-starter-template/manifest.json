@@ -1,25 +1,28 @@
 {
-  "platform-version": "2.3",
-  "product": {
-    "freshdesk": {
+  "platform-version": "3.0",
+  "engines": {
+    "node": "18.20.8",
+    "fdk": "9.7.1"
+  },
+  "app": {
+    "tracking_id": "o473smd7nfvi4gowt8ri"
+  },
+  "modules": {
+    "support_contact": {
+      "location": {
+        "contact_sidebar": {
+          "url": "index.html",
+          "icon": "styles/images/icon.svg"
+        }
+      }
+    },
+    "support_ticket": {
       "location": {
         "ticket_sidebar": {
           "url": "index.html",
           "icon": "styles/images/icon.svg"
         },
-        "full_page_app": {
-          "url": "index.html",
-          "icon": "styles/images/icon.svg"
-        },
         "ticket_requester_info": {
-          "url": "index.html",
-          "icon": "styles/images/icon.svg"
-        },
-        "cti_global_sidebar": {
-          "url": "index.html",
-          "icon": "styles/images/icon.svg"
-        },
-        "contact_sidebar": {
           "url": "index.html",
           "icon": "styles/images/icon.svg"
         },
@@ -28,10 +31,18 @@
           "icon": "styles/images/icon.svg"
         }
       }
+    },
+    "common": {
+      "location": {
+        "full_page_app": {
+          "url": "index.html",
+          "icon": "styles/images/icon.svg"
+        },
+        "cti_global_sidebar": {
+          "url": "index.html",
+          "icon": "styles/images/icon.svg"
+        }
+      }
     }
-  },
-  "engines": {
-    "node": "18.20.8",
-    "fdk": "9.7.0"
   }
 }

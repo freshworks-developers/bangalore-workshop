@@ -28,65 +28,14 @@ Kindly ensure you have gone through the [Introductory guide to freshworks app d
 
 ## How to get the necessary setup done?
 
-1. Ensure you have NVM Setup locally
-   1. For Mac Users use one of these steps
-      1. [Follow these steps for CLI based installation](https://github.com/nvm-sh/nvm#installation-and-update)
-      2. Install via brew
-         1. [Install brew](https://brew.sh/) if haven't done already
-         2. Run `brew -v` to verify the installation
-   2. For Windows Users use one of the below option
-      1. [Install via executables](https://github.com/coreybutler/nvm-windows/releases)
-      2. Install via chocolatey
-         1. [Install Chocolatey Package manager](https://chocolatey.org/install)
-         2. Install NVM via chocolatey
-            ```sh
-            # install nvm
-            choco install nvm
-            # verify version
-            nvm --version
-            ```
-2. Install Node
-     ```shw
-     # install node 18 via nvm
-     nvm install 18
-     # verify node version
-     node --version
-     # create alias against node
-     nvm alias default 18
-     ```
- 3. Install build tools
-     ```sh
-     # for Mac first time Users
-     xcode-select --install
-     # verify you have xcode cli installed
-     xcode-select -p
-     # for windows Users install build tools for windows
-     npm install --global --production windows-build-tools
-     ```
- 4. Install latest version of FDK
-    ```sh
-    # for new install
-    npm install https://cdn.freshdev.io/fdk/latest.tgz -g
-    # for existing Users of FDK version <9.0.0
-        # remove the existing version of fdk
-        npm uninstall fdk -g
-        # remove the ~/.fdk folder
-        rm -r ~/.fdk
-        # install FDK via npm
-        npm install https://cdn.freshdev.io/fdk/latest.tgz -g
-    # verify the FDK version
-    fdk version
-    ```
+For detailed installation instructions for the Freshworks Development Kit (FDK) and CLI, please refer to the official documentation:
 
-Towards end of the it your output shouldbe same or higher than the listed ones
+**[Install the FDK + CLI - Official Documentation](https://developers.freshworks.com/docs/app-sdk/v3.0/common/app-development-process/#install-the-fdk-+-cli)**
 
-```sh
-#for nvm -v
-0.40.3
-# for node -v
-v18.20.8
-# for npm -v
-10.8.2
-# for fdk -v
-9.7.0
-```
+This comprehensive guide covers:
+- Prerequisites (Node.js, NVM setup)
+- Build tools installation for different operating systems
+- FDK installation and verification
+- Troubleshooting common installation issues
+
+Following the official documentation ensures you have the most up-to-date installation process and requirements.

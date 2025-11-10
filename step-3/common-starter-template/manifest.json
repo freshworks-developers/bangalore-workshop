@@ -5,16 +5,12 @@
     "fdk": "9.7.1"
   },
   "app": {
-    "tracking_id": "7yoi0ms7wadnn5u1jfsj"
+    "tracking_id": "e6s3ltkx5lonhur5p813"
   },
   "modules": {
-    "support_ticket": {},
-    "common": {
-      "requests": {
-        "fakeStoreGetProducts": {}
-      },
+    "support_ticket": {
       "location": {
-        "full_page_app": {
+        "ticket_sidebar": {
           "url": "index.html",
           "icon": "styles/images/icon.svg"
         }

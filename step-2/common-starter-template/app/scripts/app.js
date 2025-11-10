@@ -10,9 +10,10 @@ async function init() {
 async function renderText() {
   const textElement = document.getElementById('apptext');
   const contactData = await client.data.get('contact');
+  console.log(contactData);
   const {
     contact: { name }
   } = contactData;
 
-  textElement.innerHTML = `Ticket is created by ${name} and viewed by Pavan`;
+  textElement.innerHTML = `Ticket is created by ${name}`;
 }
