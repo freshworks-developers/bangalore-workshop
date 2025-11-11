@@ -2,7 +2,7 @@
     "fakeStoreGetProducts": {
       "schema": {
         "method": "GET",
-        "host": "<%= iparam.hostName %>",
+        "host": "<%= iparam.hostDomain %>",
         "path": "/api/v2/products?_quantity=5&_locale=en_IN"
 
       },
