@@ -19,7 +19,7 @@ If you are new to Freshworks Developer ecosystem, this segment is to help you ge
 1. If you already have an account with us skip this step
 2. When landed on App Management Portal (AMP) you will be asked to signup for at least one product to get started with
 3. Select the product of your choice and signup
-4. Refer to detailed instruction on [Product Sign Up](https://community.freshworks.dev/t/how-to-log-in-and-get-started-with-the-freshworks-developer-account/7078#h-1-how-to-sign-up-for-freshworks-products-from-the-developer-account-11) when in doubt
+4. Refer to detailed instruction on [Product Sign Up](https://developers.freshworks.com/docs/guides/setup/product-signup/) when in doubt
 
 
 ## Local setup
