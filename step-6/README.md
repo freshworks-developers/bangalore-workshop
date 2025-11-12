@@ -20,10 +20,10 @@ We will be using [Products](https://fakerapi.it/products) endpoint for our use c
 **Installation parameters(iparams)**: Installation parameters allow you to configure your app during installation. These parameters can be used to store API keys, URLs, or any other configuration data required by your app. In this example, we will use an installation parameter to store the base URL of the Fakerapi URL. You can define installation parameters using the `config/iparams.json` file.
 
 ## How it works
-1. In the `config/iparams.json` file, we define an installation parameter `base_url` to store the base URL of the Fakerapi.
-2. Create a file called `config/requests.json` and define a request template called `get_products` that uses the `hostDomain` iparam to construct the full URL for the products endpoint.
+1. In the `config/iparams.json` file, we define an installation parameter `hostDomain` to store the base URL of the Fakerapi.
+2. Create a file called `config/requests.json` and define a request template called `fakeStoreGetProducts` that uses the `hostDomain` iparam to construct the full URL for the products endpoint.
     ```json
-        "host": "<%= iparam.hostName %>",
+        "host": "<%= iparam.hostDomain %>",
         "path": "/api/v2/products?_quantity=5&_locale=en_IN"
     ```
 3. Use `fdk run` command to start the app.
