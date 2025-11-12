@@ -9,7 +9,6 @@ async function init() {
 
 async function renderText() {
   const products = await fetchProducts();
-  console.log(products)
   renderProducts(products);
 }
 
@@ -18,7 +17,6 @@ async function fetchProducts() {
     const productsResponse = await client.request.invokeTemplate(
       "fakeStoreGetProducts", {});
     
-    console.log("productsResponse bro",productsResponse )
     const productsJSON = JSON.parse(productsResponse.response);
     return productsJSON.data
   } catch (err) {
