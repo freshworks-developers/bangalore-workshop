@@ -107,7 +107,7 @@ Create different experiences for Full Page Apps and CTI Global Sidebar placehold
 ### Step 6: External API Integration
 **📄 [View Guide](./step-6/README.md)**
 
-Build an e-commerce app using the Fakestore API to demonstrate external API integration.
+Build an e-commerce app using the Fake Product AP API to demonstrate external API integration.
 
 **What you'll learn:**
 - Making external API requests
@@ -116,7 +116,7 @@ Build an e-commerce app using the Fakestore API to demonstrate external API inte
 - Building a product catalog interface
 
 **API Used:**
-- [Fakestore API](https://fakestoreapi.com/)
+- [Fake Product API API](https://fakerapi.it)
 
 ---
 

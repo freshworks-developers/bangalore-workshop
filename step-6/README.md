@@ -1,4 +1,4 @@
-# Building a simple Ecommerce App with Fakestore API
+# Building a simple Ecommerce App with Fake Product API API
 
 [Fake Product API](https://fakerapi.it/) is a Fake store rest API for your e-commerce or shopping website prototype.
 
