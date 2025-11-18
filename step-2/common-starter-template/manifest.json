@@ -1,9 +1,5 @@
 {
   "platform-version": "3.0",
-  "engines": {
-    "node": "18.20.8",
-    "fdk": "9.7.1"
-  },
   "app": {
     "tracking_id": "06nv4ere9isov3phjyi4"
   },
@@ -16,5 +12,9 @@
         }
       }
     }
+  },
+  "engines": {
+    "node": "18.20.8",
+    "fdk": "9.7.1"
   }
 }
