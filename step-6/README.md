@@ -23,8 +23,10 @@ We will be using [Products](https://fakerapi.it/products) endpoint for our use c
 1. In the `config/iparams.json` file, we define an installation parameter `hostDomain` to store the base URL of the Fakerapi.
 2. Create a file called `config/requests.json` and define a request template called `fakeStoreGetProducts` that uses the `hostDomain` iparam to construct the full URL for the products endpoint.
     ```json
+        {
         "host": "<%= iparam.hostDomain %>",
         "path": "/api/v2/products?_quantity=5&_locale=en_IN"
+        }
     ```
 3. Use `fdk run` command to start the app.
 4. Go to `http://localhost:10001/custom_configs` to see the test iparam configuration page. Add `fakerapi.it` as the Host Domain value and install the app.

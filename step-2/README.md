@@ -34,12 +34,12 @@ This app displays the name of the requester of a freshdesk ticket in the ticket_
     6 directories, 8 files
 
 ## Core Concepts Used
-1. **Modules**: A module is a functional unit that defines where and how your app will run within one or more Freshworks products. Like [support_ticket](https://developers.freshworks.com/docs/app-sdk/v3.0/support_ticket/introduction/) for Freshdesk, [service_ticket](https://developers.freshworks.com/docs/app-sdk/v3.0/service_ticket/introduction/) for Freshservice, [common](https://developers.freshworks.com/docs/app-sdk/v3.0/common/introduction/) module for shared functionality, etc.
+1. **Modules**: A module is a functional unit that defines where and how your app will run within one or more Freshworks products. Like [support_ticket](https://freshworks.dev/docs/app-sdk/v3.0/support_ticket/introduction/) for Freshdesk, [service_ticket](https://freshworks.dev/docs/app-sdk/v3.0/service_ticket/introduction/) for Freshservice, [common](https://freshworks.dev/docs/app-sdk/v3.0/common/introduction/) module for shared functionality, etc.
 2. **Placeholders**: Placeholders are predefined areas within the Freshworks product UI where your app can be rendered. This could be the ticket sidebar, contact sidebar, etc. You can have a single app render in multiple placeholders too.
 
 In this example 
-1. The app supports [`support_ticket` module](https://developers.freshworks.com/docs/app-sdk/v3.0/support_ticket/introduction/) which is specific to Freshdesk. You can find this info in the `manifest.json` file.
-2. We will use the [`ticket_sidebar` placeholder](https://developers.freshworks.com/docs/app-sdk/v3.0/support_ticket/front-end-apps/placeholders/#ticket_sidebar) to display our app in the individual ticket sidebar.
+1. The app supports [`support_ticket` module](https://freshworks.dev/docs/app-sdk/v3.0/support_ticket/introduction/) which is specific to Freshdesk. You can find this info in the `manifest.json` file.
+2. We will use the [`ticket_sidebar` placeholder](https://freshworks.dev/docs/app-sdk/v3.0/support_ticket/front-end-apps/placeholders/#ticket_sidebar) to display our app in the individual ticket sidebar.
 
 ## How it works
 

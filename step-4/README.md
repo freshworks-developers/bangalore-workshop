@@ -19,7 +19,7 @@
 
 **Multiple Placeholders**: The app is configured to run in multiple placeholders within Freshdesk, allowing it to be accessible from various sections of the product interface.
 
-Learn more about all [placeholders here](https://developers.freshworks.com/docs/app-sdk/v3.0/support_ticket/front-end-apps/placeholders/).
+Learn more about all [placeholders here](https://freshworks.dev/docs/app-sdk/v3.0/support_ticket/front-end-apps/placeholders/).
 
 ## How it works
 1. The app manifest(`manifest.json`) is updated to include multiple placeholders where the app should be rendered. In this case we're using `ticket_sidebar`, `full_page_app`, `ticket_requester_info`, `cti_global_sidebar`, `contact_sidebar`, and `new_ticket_requester_info`.

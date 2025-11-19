@@ -35,6 +35,7 @@ In this step, we'll update the previous app to display different content when ac
             "icon": "styles/images/dial_pad.svg"
             }
         }
+        }
     ```
 
 Note: These are non-functional examples created just to demonstrate the usage of these placeholders.

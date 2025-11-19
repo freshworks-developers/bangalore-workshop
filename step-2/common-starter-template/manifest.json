@@ -1,8 +1,5 @@
 {
   "platform-version": "3.0",
-  "app": {
-    "tracking_id": "06nv4ere9isov3phjyi4"
-  },
   "modules": {
     "support_ticket": {
       "location": {
@@ -12,9 +9,5 @@
         }
       }
     }
-  },
-  "engines": {
-    "node": "18.20.8",
-    "fdk": "9.7.1"
   }
 }

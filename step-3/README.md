@@ -1,6 +1,6 @@
 # App with Crayons components and Instance method
 
-In this step, we will create an app that uses the [Freshworks Crayons](https://crayons.freshworks.com/) components and [instance methods](https://developers.freshworks.com/docs/app-sdk/v3.0/common/advanced-interfaces/instance-method/) to display a form inside the ticket sidebar.
+In this step, we will create an app that uses the [Freshworks Crayons](https://crayons.freshworks.com/) components and [instance methods](https://freshworks.dev/docs/app-sdk/v3.0/common/advanced-interfaces/instance-method/) to display a form inside the ticket sidebar.
 
 ## Getting Started
 
@@ -17,7 +17,7 @@ In this step, we will create an app that uses the [Freshworks Crayons](https://c
 
 ## Core Concepts Used
 1. **Crayons components**: Crayons components will help us create UI elements that are consistent with the Freshworks design system.
-2. **Instance methods**: All sidebar apps have a default size of 300px height with a maximum of 700px height. The instance method will allow us [resize the app](https://developers.freshworks.com/docs/app-sdk/v3.0/common/advanced-interfaces/instance-method/#resize-an-instance) to fit our form.
+2. **Instance methods**: All sidebar apps have a default size of 300px height with a maximum of 700px height. The instance method will allow us [resize the app](https://freshworks.dev/docs/app-sdk/v3.0/common/advanced-interfaces/instance-method/#resize-an-instance) to fit our form.
 
 ## How it works
 1. Import Crayons as a JS module in our `index.html` to use Crayons components.
