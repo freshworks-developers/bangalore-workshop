@@ -2,11 +2,9 @@
     "fakeStoreGetProducts": {
       "schema": {
         "method": "GET",
-        "host": "<%= iparam.hostName %>",
-        "path": "/products",
-        "headers": {
-          "Content-Type": "application/json"
-        }
+        "host": "<%= iparam.hostDomain %>",
+        "path": "/api/v2/products?_quantity=5&_locale=en_IN"
+
       },
       "options": {
         "maxAttempts": 3,

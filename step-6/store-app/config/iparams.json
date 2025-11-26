@@ -1,7 +1,7 @@
 {
-    "hostName": {
-      "display_name": "Host Name",
-      "description": "Enter the API host name",
+    "hostDomain": {
+      "display_name": "Host Domain",
+      "description": "Enter the API host domain without the protocol",
       "type": "text",
       "required": true
     }
